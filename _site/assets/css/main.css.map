@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "main.css",
+	"sources": [
+		"main.scss",
+		"_sass/main.scss"
+	],
+	"sourcesContent": [
+		"@import \"main\";",
+		":root {\n  --input-padding-x: .75rem;\n  --input-padding-y: .75rem;\n}\n\nhtml,\nbody {\n  height: 100%;\n}\n\nbody {\n  display: -ms-flexbox;\n  display: flex;\n  -ms-flex-align: center;\n  align-items: center;\n  padding-top: 40px;\n  padding-bottom: 40px;\n  background-color: #f5f5f5;\n}\n\n.form-signin {\n  width: 100%;\n  max-width: 420px;\n  padding: 15px;\n  margin: auto;\n}\n\n.form-label-group {\n  position: relative;\n  margin-bottom: 1rem;\n}\n\n.form-label-group > input,\n.form-label-group > label {\n  padding: var(--input-padding-y) var(--input-padding-x);\n}\n\n.form-label-group > label {\n  position: absolute;\n  top: 0;\n  left: 0;\n  display: block;\n  width: 100%;\n  margin-bottom: 0; /* Override default `<label>` margin */\n  line-height: 1.5;\n  color: #495057;\n  cursor: text; /* Match the input under the label */\n  border: 1px solid transparent;\n  border-radius: .25rem;\n  transition: all .1s ease-in-out;\n}"
+	],
+	"names": [],
+	"mappings": "ACAA,AAAA,KAAK,CAAC,EACJ,iBAAiB,CAAA,OAAC,EAClB,iBAAiB,CAAA,OAAC,GACnB;;AAED,AAAA,IAAI,EACJ,IAAI,CAAC,EACH,MAAM,EAAE,IAAI,GACb;;AAED,AAAA,IAAI,CAAC,EACH,OAAO,EAAE,WAAW,EACpB,OAAO,EAAE,IAAI,EACb,cAAc,EAAE,MAAM,EACtB,WAAW,EAAE,MAAM,EACnB,WAAW,EAAE,IAAI,EACjB,cAAc,EAAE,IAAI,EACpB,gBAAgB,EAAE,OAAO,GAC1B;;AAED,AAAA,YAAY,CAAC,EACX,KAAK,EAAE,IAAI,EACX,SAAS,EAAE,KAAK,EAChB,OAAO,EAAE,IAAI,EACb,MAAM,EAAE,IAAI,GACb;;AAED,AAAA,iBAAiB,CAAC,EAChB,QAAQ,EAAE,QAAQ,EAClB,aAAa,EAAE,IAAI,GACpB;;AAED,AAAA,iBAAiB,GAAG,KAAK,EACzB,iBAAiB,GAAG,KAAK,CAAC,EACxB,OAAO,EAAE,sBAAsB,CAAC,sBAAsB,GACvD;;AAED,AAAA,iBAAiB,GAAG,KAAK,CAAC,EACxB,QAAQ,EAAE,QAAQ,EAClB,GAAG,EAAE,CAAC,EACN,IAAI,EAAE,CAAC,EACP,OAAO,EAAE,KAAK,EACd,KAAK,EAAE,IAAI,EACX,aAAa,EAAE,CAAC,EAAE,uCAAuC,CACzD,WAAW,EAAE,GAAG,EAChB,KAAK,EAAE,OAAO,EACd,MAAM,EAAE,IAAI,EAAE,qCAAqC,CACnD,MAAM,EAAE,qBAAqB,EAC7B,aAAa,EAAE,MAAM,EACrB,UAAU,EAAE,mBAAmB,GAChC"
+}
